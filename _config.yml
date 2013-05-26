@@ -1,0 +1,13 @@
+auto: true
+markdown: rdiscount
+pygments: true
+
+title: Wybis
+
+url: http://www.wybis.com
+
+author:
+    name: Wybis
+    email: vteial@wybis.com
+    github: wybis
+
