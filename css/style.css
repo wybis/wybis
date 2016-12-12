@@ -1,20 +1,19 @@
-/* Custom Stylesheet */
-/**
- *
- * Made By Joash Pereira
- * Thanks for MaterializeCSS.com
- */
 
-.default_color{background-color: #219893 !important}
+.default_color {
+    background-color: #219893 !important
+}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text {
+    color: #2196F3 !important
+}
 
 .icon-block {
     padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
-
+#intro, #work, #team {
+    padding-top: 4rem;
+}
 
 #index-banner {
     min-height: 632px;
@@ -23,19 +22,19 @@
     background-color: #2196F3;
 }
 
-#nav_f{
+#nav_f {
     box-shadow: none !important;
-    -webkit-box-shadow:none !important;
+    -webkit-box-shadow: none !important;
 }
 
 .text_h {
     padding: 15% 0;
     font-size: 6.0em;
     font-weight: 100;
-    color:white;
+    color: white;
 }
 
-.brand-logo{
+.brand-logo {
     position: absolute;
     color: #fff;
     display: inline-block;
@@ -46,26 +45,47 @@
     letter-spacing: 7px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.text_h2 {
+    font-weight: 100;
+    margin-bottom: 4%;
+    line-height: 4.5rem;
+}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {
+    font-weight: 300;
+    color: #2196F3;
+}
 
-.text_b{color: #2196F3;}
+.text_b {
+    color: #2196F3;
+}
 
-.in{font-weight: 400 !important; font-style: normal !important;}
+.in {
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
 
 .promo i {
     color: #2196F3;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
 
-.card-content a:hover {color: #2196F3;}
+.card-content a {
+    color: #2196F3;
+}
 
-#work, #team{background: rgb(247, 247, 247);}
+.card-content a:hover {
+    color: #2196F3;
+}
 
-.text_pink{color:#EF9A9A;}
+#work, #team {
+    background: rgb(247, 247, 247);
+}
+
+.text_pink {
+    color: #EF9A9A;
+}
 
 nav ul a {
     font-size: 1.2rem;
@@ -103,6 +123,7 @@ nav ul a {
     -moz-animation: cd-pulse 1s infinite;
     animation: cd-pulse 1s infinite;
 }
+
 .cd-headline.type .cd-words-wrapper.selected {
     background-color: #FFF;
 }
@@ -127,6 +148,7 @@ nav ul a {
     position: absolute;
     visibility: hidden;
 }
+
 .cd-headline.type i.in {
     position: relative;
     visibility: visible;
@@ -146,6 +168,7 @@ nav ul a {
         opacity: 0;
     }
 }
+
 @-moz-keyframes cd-pulse {
     0% {
         -moz-transform: translateY(-50%) scale(1);
@@ -188,28 +211,27 @@ nav ul a {
     }
 }
 
-
 /* Preloader */
 #preloader {
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /* change if the mask should have another color then white */
-    z-index:1200; /* makes sure it stays on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff; /* change if the mask should have another color then white */
+    z-index: 1200; /* makes sure it stays on top */
 }
 
 #status {
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/status.gif); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%; /* centers the loading animation horizontally one the screen */
+    top: 50%; /* centers the loading animation vertically one the screen */
+    background-image: url(../img/status.gif); /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px; /* is width and height divided by two */
 }
 
 @media only screen and (max-width: 480px) {
@@ -249,7 +271,7 @@ nav a.button-collapse {
 }
 
 .card-avatar .card-content i {
-   font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .card-avatar .card-content .card-title {
