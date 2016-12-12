@@ -318,8 +318,9 @@
     <div class="container">
         <div class="row">
             <div class="col l9 s12">
-                <form class="col s12" action="https://formspree.io/contact@wybis.com" method="post">
+                <form class="col s12" name="contactForm" id="contactForm" method="post" action="https://formspree.io/contact@wybis.com" >
                     <div class="row">
+                        <h5 class="col l12 s12 white-text" id="contactFormMsg">&nbsp;</h5>
                         <div class="input-field col l6 s12">
                             <i class="mdi-action-account-circle prefix white-text"></i>
                             <input id="icon_prefix" name="name" type="text" class="validate white-text" required>
@@ -332,15 +333,22 @@
                         </div>
                         <div class="input-field col s12">
                             <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text" required></textarea>
+                            <textarea id="icon_prefix2" name="message" class="validate white-text materialize-textarea" required></textarea>
                             <label for="icon_prefix2" class="white-text">Message</label>
                         </div>
                         <div class="col s12 center">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
-                                <i class="mdi-content-send right white-text"></i>
+                            <button class="left btn waves-effect waves-light" type="reset">
+                                Reset <!--<i class="mdi-content-send right white-text"></i>-->
+                            </button>
+                            <button class="right btn waves-effect waves-light red darken-1"
+                                    type="submit" id="contactFormSub">
+                                Submit <!--<i class="mdi-content-send right white-text"></i>-->
                             </button>
                         </div>
                     </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_format" value="plain" />
+                    <input type="hidden" name="_subject" value="Wybis new submission!" />
                 </form>
             </div>
             <div class="col l3 s12">
@@ -402,6 +410,7 @@ if(window.location.hostname != 'localhost' && window.location.hostname != '127.0
 </script>
 <script src="min/plugin-min.js"></script>
 <script src="min/custom-min.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
