@@ -20,7 +20,7 @@ $(document).ready(function () {
             encode: true
         }).done(function (res) {
             //console.log(res);
-            contactFormMsg.text('Thanks, We will get back you soon.');
+            contactFormMsg.text('Thank you for contacting Us. We will get back to you within two working days!');
             contactFormMsg.show();
             contactForm.trigger('reset');
             setTimeout(function () {
@@ -28,8 +28,8 @@ $(document).ready(function () {
                 contactFormMsg.hide();
             }, 10000);
         }).fail(function (res) {
-            console.log(res);
-            contactFormMsg.text('Submit failed...');
+            console.log("FATAL:"+res);
+            contactFormMsg.text('We are Sorry! Site is having an issue at this moment, Pleae do Call us...');
             contactFormMsg.show();
         }).always(function () {
             contactFormSub.prop('disabled', false);
